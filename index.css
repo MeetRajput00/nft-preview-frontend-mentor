@@ -1,0 +1,82 @@
+body{
+    background-color: #0d1a2d;
+    font-family: 'M PLUS Rounded 1c';
+    -webkit-text-stroke-width: medium;
+}
+.outerBox{
+    height: 568px;
+    width: 370px;
+    margin: auto;
+    margin-top: 37px;
+    padding: 21px;
+    background-color: #0c192c;
+    border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+}
+.innerBox{
+    height: 509px;
+    width: 315px;
+    padding: 29px;
+    background-color: #15273f;
+    border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+    box-shadow: 1px 14px 5px 7px rgb(0 0 0 / 46%);
+-webkit-box-shadow: 1px 14px 5px 7px rgb(0 0 0 / 46%);
+-moz-box-shadow: 1px 14px 5px 7px rgb(0 0 0 / 46%);
+}
+.imageBox{
+    height: 290px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 28px 28px 28px 28px;
+    -webkit-border-radius: 28px 28px 28px 28px;
+    -moz-border-radius: 28px 28px 28px 28px;
+}
+.imageBox img{
+    border-radius: 12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+-moz-border-radius: 12px 12px 12px 12px;
+}
+.headingText{
+    color: white;
+    
+    font-size: 22px;
+}
+.ethntime{
+    display: flex;
+}
+.infoText{
+    opacity: 46%;
+    color: white;
+}
+.eth{
+    display: flex;
+    flex:6;
+    color: aquamarine;
+}
+.time{
+    opacity: 95%;
+    display: flex;
+    flex: auto;
+    color: grey;
+}
+.creatorInfo{
+    
+    display: flex;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
+.normalTxt{
+
+    opacity: 46%;
+    color: white;
+}
+.whiteTxt{
+    color: white;
+}
